@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="./CSS/01.css">
+	<link rel="stylesheet" type="text/css" href="js">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.theme.default.min.css"></link>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/owl.carousel.min.js"></script>
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+	<title>首頁</title>
+</head>
+
+
+<body>
+	<div class="all">
+<!------------- 選單 --------------->
+	<header>
+		<input type="checkbox" name="" id="btn-mobile-menu">
+
+		<div class="container001">
+			<div class="headerContent">
+				<div class="logo123">
+					<a href="index.html"><img src="img/LOGO.png"></a>
+				</div>
+				
+				<div class="menu">
+					<label for="btn-mobile-menu" class="btn-mobile-menu">
+						<span></span><span></span><span></span>
+					</label>
+					<nav>
+					    <a href="./04.html">品牌故事</a>
+					    <a href="./03.html">最新消息</a>
+					    <a href="./02.html">所有商品</a>
+					    <a href="./05.html">門市資訊</a>
+						<a href="./06.html">預約試吃</a>
+						
+						 <a href="#"><img src="img/icon2.png" alt=""></a>
+						
+			
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+
+
+<!--------------banner--------------- -->
+
+
+
+<div class="rwd_slider_container_wrapper">
+  <div class="rwd_slider_container">
+    <div class="slider_container" >
+      <div>
+        <img src="img/banner05.jpg" alt="">
+      </div>
+      <div>
+       <img src="img/banner02.jpg" alt="">
+      </div>
+      <div>
+      	<img src="img/banner03.jpg" alt="">
+      </div>
+      <div>
+      <img src="img/banner04.jpg" alt="">
+      </div>
+      <div>
+      <img src="img/banner01.jpg" alt="">
+      </div>
+    </div><!-- end of .pure_slider_container -->
+  </div><!-- end of .embed-responsive -->
+</div><!-- end of .embed-responsive-box -->
+
+
+<!--------最新消息------------->
+
+
+
+
+
+
+<!--------------點擊換圖動畫--------------- -->
+
+<script type="text/javascript">
+
+$(function() {
+    $(".flexslider").flexslider({
+		slideshowSpeed: 5000, //展示时间间隔ms
+		animationSpeed: 500, //滚动时间ms
+		touch: true //是否支持触屏滑动
+	});
+});	
+
+</script>
+
+
+
+<!--------------about us 介紹第一欄--------------- -->
+<div class="title" data-aos="flip-left" data-aos-duration="2000">
+	<h2>品牌故事</h2>
+</div>
+
+<div class="aboutBox">
+	
+	<div class="container960">
+		
+		<div id="row1">
+			<div id="r1_txt">
+				<p class="chinese2">
+					<span>甘鹿的精神</span><br>
+					每一次的新人禮餅製作
+				我們都有著滿滿的愛與感動
+				<br>代表即將往下一個人生的階段
+	 			仔細地放入每個產品每個細節
+	 			帶著祝福將它遞出
+				<br>手工喜餅的背後將傳達每對新人
+				溫暖又動人的愛情故事
+				</p>
+			</div>
+			<div id="r1_img">
+				<img src="img/new_01.gif">
+			</div>
+		</div>
+
+
+
+
+
+
+<div id="row2">
+			<div id="r2_img">
+				<img src="img/story01.PNG" alt="">
+			</div>
+			<div id="r2_txt">
+				<p class="chinese2">
+					<span>甘鹿的堅持</span><br>
+					100%使用純天然的嚴選食材來製作口感紮實香氣濃郁的手工禮餅,
+					<br>絕不添加任何人工香精及防腐劑,
+					<br>是甘鹿禮坊自創立以來一直不變的堅持,為顧客的健康把關是我們的使命
+				</p>	
+			</div>
+			<div class="clearFix"></div>
+		</div>
+
+
+
+</div>
+
+
+<div class="title" data-aos="flip-left" data-aos-duration="2000">
+	<h2>熱賣商品</h2>
+</div>
+
+
+<!-------------商品推薦區1------------------>
+
+
+<div class="cookiesmain" data-aos="zoom-out" data-aos-duration="1000">
+
+	<div class="outcookie col-12 col-md-4">
+		<div class="cookies">
+			
+				<a href="./02.html"><div class="cookieimg">
+				<img src="img/poduct_01.jpg" alt=""></div></a>
+				<h5>花舞佳人禮盒 </h5>
+				<p>NT 880<br>
+				</p>
+			
+		</div>
+	</div>
+
+
+	<div class="outcookie col-12 col-md-4">
+		<div class="cookies">
+			
+				<a href="./02.html"><div class="cookieimg">
+				<img src="img/poduct_02.jpg" alt=""></div></a>
+				<h6>百年摯愛禮盒 </h6>
+				<p>NT 880<br>
+				</p>
+			
+		</div>
+	</div>
+
+
+	<div class="outcookie col-12 col-md-4">
+		<div class="cookies">
+			<a href="./02.html">
+				<div class="cookieimg">
+				<img src="img/poduct_03.jpg" alt=""></div></a>
+				<h6>心心相戀禮盒 </h6>
+				<p>NT 880<br>
+				</p>
+			
+		</div>
+	</div>
+
+
+</div>
+
+<!-------------商品推薦區2------------------>
+
+<div class="cookiesmain01" data-aos="zoom-out" data-aos-duration="2000">
+
+	<div class="outcookie col-12 col-md-4">
+		<div class="cookies">
+			<a href="./02.html">
+				<div class="cookieimg">
+				<img src="img/poduct_04.jpg" alt=""></div></a>
+				<h6>雋永浪漫禮盒 </h6>
+				<p>NT 880<br>
+				</p>
+			
+		</div>
+	</div>
+
+
+	<div class="outcookie col-12 col-md-4">
+		<div class="cookies">
+			<a href="./02.html">
+				<div class="cookieimg">
+				<img src="img/new_0555.gif" alt=""></div></a>
+				<h6>玫瑰之戀禮盒 </h6>
+				<p>NT 880<br>
+				</p>
+			
+		</div>
+	</div>
+
+
+	<div class="outcookie col-12 col-md-4">
+		<div class="cookies">
+			<a href="./02.html">
+				<div class="cookieimg">
+				<img src="img/poduct_06.jpg" alt=""></div></a>
+				<h6>花開富貴禮盒</h6>
+				<p>NT 880<br>
+				</p>
+			
+		</div>
+	</div>
+
+
+</div>
+
+	
+<!------------預約試吃---------------------->
+
+<div class=title2>
+	<h2> </h2>
+</div>
+<div class=title2>
+	<h2> </h2>
+</div>
+
+<div class="title" data-aos="flip-left" data-aos-duration="2000">
+	<h2>預約試吃</h2>
+</div>
+
+
+
+
+
+
+
+<div class="ad04">
+	<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+
+					 <div class="pic4" data-aos="fade-up"
+          data-aos-duration="3000">
+						<a href="./06.html">
+							<img src="img/new_06.gif" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					 <div class="pic5" data-aos="fade-up"
+          data-aos-duration="3000">
+							<a href="./06.html"><img src="img/new_07.gif" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+
+<!------------footer----------------->
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-12">
+				<ul>
+					Copyright © 2019 Seet Deer Co.,Ltd.All Rights Reserved.
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-----------slider換圖----------------->
+
+<script>
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:1,
+    loop:true,
+    margin:0,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+</script>
+<!-----------about左右移入效果-------------------->
+
+ <script src="moolo_js.js"></script>
+    <script>
+        var equ=document.querySelectorAll(".wrap");
+        var equ1=document.querySelectorAll(".about");
+        var equitembox=document.querySelectorAll(".equitembox");
+        window.onscroll = function(){
+            if(window.pageYOffset>=800){
+            equ[0].classList.add("movein");
+            equ1[0].classList.add("movein");
+            }
+            if(window.pageYOffset>=1000){
+            equitembox[0].classList.add("movein");
+            equitembox[0].classList.add("movein");
+            }
+            if(window.pageYOffset>=1200){
+            equ[1].classList.add("movein");
+            equ1[1].classList.add("movein");
+            }
+        }
+    </script>
+
+<!-----------eat有下往上效果-------------------->
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+<!-----------boostrap預設-------------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</div>
+
+
+
+
+	
+</body>
+
+
+</html>

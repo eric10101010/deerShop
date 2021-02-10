@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="./CSS/01.css">
+	<link rel="stylesheet" type="text/css" href="js">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('.slider').cycle({
+                fx: 'fade', //特效 speed:  7500,
+                timeout: 2000,
+                random: 1
+            });
+        });
+    </script>
+	<title>Document</title>
+	 <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+
+.wrap02
+{
+  margin:50px auto 0 auto;
+  width:100%;
+  display:flex;
+  align-items:space-around;
+  max-width:1200px;
+}
+
+.wrap03
+{
+  margin:50px auto 0 auto;
+  width:100%;
+  display:flex;
+  align-items:space-around;
+  max-width:1200px;
+  margin-bottom: 150px;
+}
+
+.wrap04
+{
+  margin:50px auto 0 auto;
+  width:100%;
+  display:flex;
+  align-items:space-around;
+  max-width:1200px;
+}
+.tile
+{
+  width:300px;
+  height:300px;
+  margin:10px;
+  background-color:#f79;
+  display:inline-block;
+  background-size:cover;
+  position:relative;
+  cursor:pointer;
+  transition: all 0.4s ease-out;
+  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+  overflow:hidden;
+  color:#Fff;
+  font-family:'Roboto';
+  
+}
+.tile img
+{
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:0;
+  transition: all 0.4s ease-out;
+}
+.tile .text123
+{
+/*   z-index:99; */
+  position:absolute;
+  padding:30px;
+  height:calc(100% - 60px);
+}
+.tile h1
+{
+ 
+  font-weight:300;
+  margin:0;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.tile h2
+{
+  font-weight:100;
+  margin:20px 0 0 0;
+  font-style:italic;
+   transform: translateX(200px);
+}
+.tile p
+{
+  font-weight:300;
+  margin:20px 0 0 0;
+  line-height: 25px;
+/*   opacity:0; */
+  transform: translateX(-200px);
+  transition-delay: 0.2s;
+}
+
+.tile:hover
+{
+   background-color:#99aeff; 
+box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+  transform:scale(1.05);
+}
+.tile:hover img
+{
+  opacity: 0.2;
+}
+.tile:hover .animate-text
+{
+  transform:translateX(0);
+  opacity:1;
+}
+
+.animate-text
+{
+  opacity:0;
+  transition: all 0.6s ease-in-out;
+}
+
+
+.tile:hover span
+{
+  opacity:1;
+  transform:translateY(0px);
+}
+
+
+@media (max-width: 1000px) {
+  .wrap {
+   flex-direction: column;
+    width:400px;
+  }
+}
+</style>
+
+
+</head>
+
+
+<body>
+<div class="all">
+<!------------- 選單 --------------->
+  <header>
+    <input type="checkbox" name="" id="btn-mobile-menu">
+
+    <div class="container001">
+      <div class="headerContent">
+        <div class="logo123">
+          <a href="index.html"><img src="img/LOGO.png"></a>
+        </div>
+        
+        <div class="menu">
+          <label for="btn-mobile-menu" class="btn-mobile-menu">
+            <span></span><span></span><span></span>
+          </label>
+          <nav>
+              <a href="./04.html">品牌故事</a>
+              <a href="./03.html">最新消息</a>
+              <a href="./02.html">所有商品</a>
+              <a href="./05.html">門市資訊</a>
+            <a href="./06.html">預約試吃</a>
+           <a href="#"><img src="img/icon2.png" alt=""></a>
+
+      
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+<body>
+<!----分隔-------------------------->
+
+
+<!----分隔-------------------------->
+ 
+<div class="rwd_slider_container_wrapper">
+  <div class="rwd_slider_container">
+    <div class="slider_container" >
+      <div>
+        <img src="img/01.jpg" alt="">
+      </div>
+      <div>
+       <img src="img/02.jpg" alt="">
+      </div>
+      <div>
+        <img src="img/03.jpg" alt="">
+      </div>
+      <div>
+      <img src="img/04.jpg" alt="">
+      </div>
+      <div>
+      <img src="img/02.jpg" alt="">
+      </div>
+    </div><!-- end of .pure_slider_container -->
+  </div><!-- end of .embed-responsive -->
+</div><!-- end of .embed-responsive-box -->
+
+
+<!-------------麵包屑---------------- -->
+
+<div class="bredQQ">
+  
+<p>
+  <a href="./index.html">首頁</a>/<a href="./03.html">最新消息</a>
+
+</p>
+
+</div>
+     
+
+<!--------------文字標題--------------- -->
+<div class="title" data-aos="flip-left" data-aos-duration="2000">
+  <h2>最新消息</h2>
+</div>
+
+<!----最新消息區塊欄1-------------------------->
+<div class="bluenew01"> 
+  <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 ">
+          <div class="tile"> 
+                <img src="img/new_01.jpg" alt="">
+                    <div class="text123">
+                        <h2 class="animate-text">聖誕節必吃甜點</h2>
+                       <p class="animate-text">
+
+                        馬上分享馬上賺80點數
+                        好吃的甜點不能自己偷偷暗藏
+                        來來來！獲得現金積點只要三步驟
+
+                    </p>
+
+              </div>
+        </div>
+    </div>
+
+<div class="col-12 col-md-4">
+    <div class="tile"> 
+        <img src="img/new_02.jpg" alt="">
+            <div class="text123">
+                <h2 class="animate-text">新品蛋糕推出</h2>
+                <p class="animate-text">
+                專屬連結分享好友，享現金積點！
+                免帳號密碼！一鍵登入
+                <br>甜點能夠「分享」，而對我們來說真正的分享
+                </p>
+           </div>
+    </div>
+</div>  
+
+ <div class="col-12 col-md-4">
+      <div class="tile"> 
+          <img src="img/new_03.jpg" alt="">
+              <div class="text123">
+                  <h2 class="animate-text">吃甜點分享文</h2>
+                  <p class="animate-text">
+                  一年一度，情人節限定好禮,<br>決不可錯過
+                  <br>濃情密意說出來!蛋糕也要買起來!
+                  <br>期間限定新式蛋糕特價優惠中 </p>
+              </div>
+        </div>
+    </div>
+ </div>
+</div>
+</div>
+
+<!----最新消息區塊欄2-------------------------->
+<div class=bluenew> 
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 ">
+          <div class="tile"> 
+            <img src="img/new_04.jpg" alt="">
+            <div class="text123">
+
+            <h2 class="animate-text">購物商店新好康</h2>
+            <p class="animate-text">
+            專屬連結分享好友，享現金積點！
+            <br>免帳號密碼！一鍵登入
+            <br>甜點能夠「分享」，
+            <br>而對我們來說真正的分享</p>
+
+         </div>
+       </div>
+   </div>
+
+<div class="col-12 col-md-4">
+<div class="tile"> 
+  <img src="img/new_05.jpg" alt="">
+  <div class="text123">
+  
+  <h2 class="animate-text">情人節活動</h2>
+  <p class="animate-text">
+    一年一度，情人節限定好禮,
+    <br>決不可錯過
+   <br>濃情密意說出來!蛋糕也要買起來!
+   <br>期間限定新式蛋糕特價優惠中
+ </p>
+
+  </div>
+ </div>
+</div>  
+
+<div class="col-12 col-md-4">
+  <div class="tile"> 
+ <img src="img/new_06.jpg" alt="">
+  <div class="text123">
+ 
+  <h2 class="animate-text">手工糕點登場</h2>
+
+  <p class="animate-text">
+  獨家特製手工糕點,<br>享受一場美食饗宴,
+  <br>每個層次都有不同的滋味,值得你細細品味</p>
+  <p class="animate-text">團隊全新研發,年度信心糕點上場</p>
+
+  </div>
+ </div>
+</div>
+
+  
+</div>
+</div>
+</div>
+
+<!----最新消息區塊欄3-------------------------->
+<div class ="news">
+
+<div class="title" data-aos="flip-left" data-aos-duration="2000">
+  <h2>活動專區</h2>
+</div>
+
+</div>
+<!-- news -->
+        <div class="background bg-purplepeper">
+            <div class="main news">
+            
+                <div class="news-cotent">
+                    <div class="news-menu">
+                        <div class="news-item-row">
+                            <div class="news-itemgroup">
+                                <div class="news-menu-margin">
+                                    <a href="   ">
+                                        <div class="news-menu-item clearfix">
+                                            <img src="img/009.jpg" alt="">
+                                            <div class="news-menu-item-text">
+                                                <h5>母親節限定活動上市</h5>
+                                                <p>親情是無法割捨的牽絆
+                                                  <br>辛苦的媽咪值得你的孝順
+                                                  <br>趕緊來店裏選購蛋糕讓媽咪嘴甜甜
+                                                  <br>說不出口的愛就讓蛋糕來表現
+                                                </p>
+                                                <div class="knowmore">了解更多</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-menu-margin">
+                                    <a href="   ">
+                                        <div class="news-menu-item clearfix">
+                                            <img src="img/003.png" alt="">
+                                            <div class="news-menu-item-text">
+                                                <h5>環保尖兵有你有我</h5>
+                                                <p>自2018年1月1日起配合政府實施塑膠袋收費政策，門市將不再免費提供購物用 塑膠袋，歡迎大家自備環保袋重複使用 ♻一起愛護地球守護海洋 </p>
+                                            </div>
+                                            <div class="knowmore">了解更多</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-menu-margin">
+                                    <a href="">
+                                        <div class="news-menu-item clearfix">
+                                            <img src="img/008.jpg" alt="">
+                                            <div class="news-menu-item-text">
+                                                <h5>最狂夏日水果PA</h5>
+                                                <p>就．是．今．天！！！</p>
+                                                <p>繼廣受好評的芒果茶拿鐵與熱情火龍果後又有兩款隱藏版新品上市囉🎊</p>
+                                                <p>「深海鳳梨王」及「甜蜜藍莓夜」即將席捲你的夏日！！</p>
+                                                <p>新鮮水果現打而成的消暑冰沙兼顧健康及熱量，愛美的朋友一定要來嘗鮮😋</p>
+                                            </div>
+                                            <div class="knowmore">了解更多</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                               
+                            </div>
+                            <div class="news-itemgroup">
+                                <div class="news-menu-margin">
+                                    <a href="" title="">
+                                        <div class="news-menu-item clearfix">
+                                            <img src="img/004.jpg" alt="">
+                                            <div class="news-menu-item-text">
+                                                <h5>
+                                           「清鬆PAY回饋」 
+                                        </h5>
+                                                <p>粉粉們快照過來～歡慶街口支付上線啦～！10月15日～12月15日，來店消費，使用「街口支付」，獨享三重好康回饋喔！還在等什麼～快跟著小編一起來看看有哪些好康回饋，記好活動時間～千萬別錯過囉！</p>
+                                            </div>
+                                            <div class="knowmore">了解更多</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-menu-margin">
+                                    <a href="" title="">
+                                        <div class="news-menu-item clearfix">
+                                           <img src="img/005.jpg" alt="">
+                                            <div class="news-menu-item-text">
+                                                <h5>
+                                            父親節寵愛你的爸爸
+                                        </h5>
+                                                <p>
+                                                  全店商品自8/1~8/8號期間
+                                                  <br>蛋糕系列及餅乾系列全面88折
+
+                                                </p>
+                                            </div>
+                                            <div class="knowmore">了解更多</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-menu-margin">
+                                    <a href="" title="">
+                                        <div class="news-menu-item clearfix">
+                                           <img src="img/001.jpg" alt="">
+                                            <div class="news-menu-item-text">
+                                                <h5>麻吉新品上市就是狂</h5>
+                                                <p>今年夏季火熱新品『火龍果蛋糕』與『海綿奶油蛋糕』將於下周上市！</p>
+                                            </div>
+                                            <div class="knowmore">了解更多</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="news-itemgroup">
+                                <div class="news-menu-margin">
+                                    <a href="" title="">
+                                        <div class="news-menu-item clearfix">
+                                            <img src="img/007.jpg" alt="">
+                                            <div class="news-menu-item-text">
+                                                <h5>
+                                            真心不騙! 芋頭糕餅                                       </h5>
+                                                <p>親愛的水迷~ 你知道嗎?我們的芋頭都是自己煮的喔!芋頭切塊加入紅砂糖細細燉煮綿密芋泥搭配香醇鮮奶口感滑順甜而不膩~</p>
+                                            </div>
+                                            <div class="knowmore">了解更多</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-menu-margin">
+                                    <a href="" title="">
+                                        <div class="news-menu-item clearfix">
+                                            <img src="img/002.jpg" alt="">
+                                            <div class="news-menu-item-text">
+                                                <h5>
+                                            你的愛情該如何保鮮
+                                        </h5>
+                                                <p>七夕情人節，皮古大神來送禮【皮古隨身瓶】這次讓皮古測試【你的愛情該如何保鮮】。發現情人節要到了，看到麻古出了「皮古隨身瓶」想要購買一個給另一半，你會送甚麼顏色的呢？</p>
+                                            </div>
+                                            <div class="knowmore">了解更多</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-menu-margin">
+                                    <a href="" title="">
+                                        <div class="news-menu-item clearfix">
+                                          <img src="img/006.jpg" alt="">
+                                            <div class="news-menu-item-text">
+                                                <h5>
+                                          快來甘鹿找尋春天
+                                        </h5>
+                                                <p>七夕情人節，皮古大神來送禮【皮古隨身瓶】這次讓皮古測試【你的愛情該如何保鮮】。發現情人節要到了，看到麻古出了「皮古隨身瓶」想要購買一個給另一半，你會送甚麼顏色的呢？</p>
+                                            </div>
+                                            <div class="knowmore">了解更多</div>
+                                        </div>
+                                    </a>
+                                </div>
+                               
+                              
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+<!------------footer----------------------------------->
+
+<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<ul>
+						Copyright © 2019 Seet Deer Co.,Ltd.All Rights Reserved.
+
+					</ul>
+				</div>
+
+			
+				
+				
+				
+			</div>
+		</div>
+	</div>
+
+
+<!---------三圓圈有下往上效果-------------------->
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+
+<!-----------boostrap預設-------------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</div>
+
+
+
+</div>
+	
+</body>
+
+
+</html>

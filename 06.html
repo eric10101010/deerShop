@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="js">
+	<link rel="stylesheet" type="text/css" href="./CSS/01.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('.slider').cycle({
+                fx: 'fade', //特效 speed:  7500,
+                timeout: 2000,
+                random: 1
+            });
+        });
+    </script>
+	<title>Document</title>
+<style>
+
+
+/*----------------*/
+
+.clearfix{
+    clear: both;
+}
+.floatl{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: #5c4d4d;
+}
+
+.h4{
+    font-size: 18px;
+    color: #5c4d4d;
+    font-weight: bold;
+}
+.h5{
+    font-size: 16px;
+    color: #5c4d4d;
+    font-weight: bold;
+}
+
+/* ----------aboutus-------- */
+.aboutus_infor{
+    margin: 5% auto;
+}
+.aboutus p{
+    margin: 3% 15%;
+    text-align: center;
+}
+.aboutus_infor{
+    text-align: center;
+}
+.aboutus_infor p.h4{
+    text-align: left;
+}
+.aboutus_infor table{
+    margin: auto;
+    text-align: center
+}
+.aboutus_video{
+    margin: 5%;
+}
+.aboutus_video video{
+    width: 100%;
+}
+.aboutus_backimg{
+    background-image: url(./img/webfirst_00.PNG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.8;
+}
+.aboutus_text1{
+    background-color: rgba(255, 255, 255, 0.555);
+    margin: 0% 2.5% 0% 0%;
+}
+
+
+
+/* -------RWD------- */
+.col-0_5,
+.window-1,
+.window-2,
+.window-3,
+.window-4,
+.window-5,
+.window-6,
+.window-7,
+.window-8,
+.window-9,
+.window-10,
+.window-11,
+.window-12,
+.newswrap-2{
+    float: left; 
+    box-sizing: border-box;
+}
+.col-0_5{ width: 4.1666666%; }
+.window-1{ width: 8.333333%; }
+.window-2{ width: 16.666666%; }
+.window-3{ width: 25%;}
+.window-4{ width: 33.333333%; }
+.window-5{ width: 41.666666%; }
+.window-6{ width: 50%; }
+.window-7{ width: 58.333333%; }
+.window-8{ width: 66.666666%; }
+.window-9{ width: 75%; }
+.window-10{ width: 83.333333%; }
+.window-11{ width: 91.666666%; }
+.window-12{ width: 100%; }
+.newswrap-2 {width: 12.666666%;}
+
+
+@media screen and (min-width:768px){
+    .space{
+        display: grid;
+        height: 0.1px;
+    }
+
+/* ----------aboutus------------- */
+.aboutus_infor{
+    margin-bottom: 2%;
+    text-align: center;
+}
+.aboutus_infor p.h2{
+    display: inline-block;
+    text-align: center;
+    
+}
+.aboutus_text1{
+    background-color: rgba(255, 255, 255, 0.555);
+    margin: 0% 2.5% 0% 0%;
+}
+.aboutus_text1 p{
+    float: left;
+    text-align: center;
+    padding: 2% ;
+   border-radius: 10%;
+}
+.aboutus_infor p.h3,.aboutus_infor p.h4{
+    float: left;
+    margin: 2% 2%;
+}
+.aboutus_video{
+    margin: 0;
+}
+.aboutus_talk{
+    text-align: center;
+    margin: auto;
+}
+.aboutus_talk p{
+    margin: auto;
+    padding: 1% 0%;
+}
+
+.aboutus_backimg{
+    background-image: url(./img/webfirst_00.PNG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.8;
+    padding: 5% 0% 0% 0%
+}
+
+
+
+
+    .col-md-0_5{ width: 4.1666666%; }
+    .col-md-1{ width: 8.333333%; }
+    .col-md-2{ width: 16.666666%; }
+    .col-md-3{ width: 25%;}
+    .col-md-3s{width: 12.5%;
+        height: 0.1px; float: left;}
+    .col-md-4s{ width:22.11111111%; }
+    .col-md-4{ width: 33.333333%; }
+    .col-md-5{ width: 41.666666%; }
+    .col-md-6{ width: 50%; }
+    .col-md-7{ width: 58.333333%; }
+    .col-md-8{ width: 66.666666%; }
+    .col-md-9{ width: 75%; }
+    .col-md-10{ width: 83.333333%; }
+    .col-md-11{ width: 91.666666%; }
+    .col-md-12{ width: 100%; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="all">
+<!---------------分隔-------------------->
+    <header>
+        <input type="checkbox" name="" id="btn-mobile-menu">
+
+        <div class="container001">
+            <div class="headerContent">
+                <div class="logo123">
+                    <a href="index.html"><img src="img/LOGO.png"></a>
+                </div>
+                
+                <div class="menu">
+                    <label for="btn-mobile-menu" class="btn-mobile-menu">
+                        <span></span><span></span><span></span>
+                    </label>
+                    <nav>
+                        <a href="./04.html">品牌故事</a>
+                        <a href="./03.html">最新消息</a>
+                        <a href="./02.html">所有商品</a>
+                        <a href="./05.html">門市資訊</a>
+                        <a href="./06.html">預約試吃</a>
+                         <a href="#"><img src="img/icon2.png" alt=""></a>
+
+            
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<!---------------分隔-------------------->
+<div class="banner">
+    <img src="img/000.png" alt="">
+    
+</div>
+
+
+<!-------------麵包屑---------------- -->
+
+<div class="bredQQ">
+    
+<p>
+   <a href="./index.html">首頁</a>/<a href="./06.html">預約試吃</a>
+</p>
+
+</div>
+<!---------------分隔-------------------->
+
+<div class="title" data-aos="flip-left" data-aos-duration="2000">
+    <h2>預約試吃</h2>
+</div>
+
+
+<!---------------分隔-------------------->
+
+<div class="store">
+    <div class="storeText">
+        
+        <h2>預約需知</h2>
+        
+<p>恭喜您即將邁入下一階段的幸福人生，
+<br>
+門市試吃提供多款喜餅口味，
+<br>歡迎您來免費體驗喜餅試吃，
+<br>線上預約試吃就送專屬小禮（試吃當天贈送）！
+
+<br>所需時間約30~60分鐘，
+<br>當天將由服務人員為您詳細介紹喜餅。
+
+
+</p>
+
+
+     
+    </div>
+</div>
+
+
+
+
+<!---------------預約表單-------------------->
+    <div class="container container2">
+    <div class="form-bgi">
+    <section class="wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: .5s; animation-name: fadeInUp;">
+        <div class="form-all">  
+             <div class="form-h">   
+                    <h2>喜餅預約單</h2>
+             </div>
+             <div class="form-p" id="form-p">
+                <p>為了提供您更完善的服務，請務必輸入正確的資料，謝謝您。<BR><span class="symble">*</span>為必填</p>
+             </div>         
+             <div class="tt-form">      
+                 <form>
+                    <div class="f-g">
+                        <div class="f-g1">
+                            <div class="nam-box">
+                                <label><span class="symble">*</span>姓名
+                                </label>                                
+                                <input type="text"  required="required" placeholder="name">
+                            </div>
+                            
+                            <div class="dat-box">
+                                <label><span class="symble">*</span>日期
+                                </label>
+                                <input type="date"  required="required" placeholder="date">
+                            </div>
+                            
+                            <div class="eml-box">
+                                <label><span class="symble">*</span>信箱
+                                </label>
+                                <input type="text"  required="required" placeholder="e-mail">
+                            </div>
+                        </div>
+
+                        <div class="f-g2">
+                            <div class="pho-box">
+                                <label><span class="symble">*</span>電話
+                                </label>
+                                <input type="text" required="required" placeholder="phone number">
+                            </div>                  
+                            <div class="tim-box">
+                                <label><span class="symble">*</span>時間
+                                </label>
+                                <input type="time"  required="required" placeholder="time">
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="msg-box">
+                        <label class="msg">留言
+                        </label>
+                        <textarea placeholder="message / 可簡述您喜愛的款式或風格唷~"></textarea>
+                    </div> 
+
+                </form>                 
+            </div>                  
+            <div class="radio">
+                <input type="radio"><label>我已閱讀隱私權保護政策，並同意接受<a href="#">條款</a>內容</label>
+            </div>          
+            <div class="bt">
+                <input type="reset" value="清除重填">
+                <input type="submit" value="確認預約">
+            </div>          
+        </div>
+    </section>
+    </div>
+</div>  
+
+
+
+
+
+
+
+<!------------footer-------------->
+<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<ul>
+						Copyright © 2019 Seet Deer Co.,Ltd.All Rights Reserved.
+
+					</ul>
+				</div>
+
+			
+				
+				
+				
+			</div>
+		</div>
+	</div>
+
+<!-----------三圓圈有下往上效果-------------------->
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+
+	
+<!-----------boostrap預設-------------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	
+
+	
+</body>
+</html>

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="js">
+	<link rel="stylesheet" type="text/css" href="./CSS/01.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('.slider').cycle({
+                fx: 'fade', //特效 speed:  7500,
+                timeout: 2000,
+                random: 1
+            });
+        });
+    </script>
+	<title>Document</title>
+<style>
+
+
+.clearfix{
+    clear: both;
+}
+.floatl{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: #5c4d4d;
+}
+
+.h4{
+    font-size: 18px;
+    color: #5c4d4d;
+    font-weight: bold;
+}
+.h5{
+    font-size: 16px;
+    color: #5c4d4d;
+    font-weight: bold;
+}
+
+
+/* ----------aboutus-------- */
+.aboutus_infor{
+    margin: 5% auto;
+}
+.aboutus p{
+    height: 200px;  
+    margin: 3% 15%;
+    text-align: center;
+}
+.aboutus_infor{
+    text-align: center;
+}
+.aboutus_infor p.h4{
+    text-align: left;
+}
+.aboutus_infor table{
+    margin: auto;
+    text-align: center
+}
+.aboutus_video{
+    margin: 5%;
+}
+.aboutus_video video{
+    width: 100%;
+}
+.aboutus_backimg{
+    background:url(img/webfirst_00.PNG) center center fixed;
+    background-size: cover;
+    width: 96%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.8;
+    padding:10px;
+}
+
+
+
+
+
+.aboutus_text1{
+height: 130px;
+
+    background-color: rgba(255, 255, 255, 0.555);
+    margin: 24px 0px;
+}
+
+
+
+/* -------RWD------- */
+.col-0_5,
+.window-1,
+.window-2,
+.window-3,
+.window-4,
+.window-5,
+.window-6,
+.window-7,
+.window-8,
+.window-9,
+.window-10,
+.window-11,
+.window-12,
+.newswrap-2{
+    float: left; 
+    box-sizing: border-box;
+}
+.col-0_5{ width: 4.1666666%; }
+.window-1{ width: 8.333333%; }
+.window-2{ width: 16.666666%; }
+.window-3{ width: 25%;}
+.window-4{ width: 33.333333%; }
+.window-5{ width: 41.666666%; }
+.window-6{ width: 50%; }
+.window-7{ width: 58.333333%; }
+.window-8{ width: 66.666666%; }
+.window-9{ width: 75%; }
+.window-10{ width: 83.333333%; }
+.window-11{ width: 91.666666%; }
+.window-12{ width: 100%; }
+.newswrap-2 {width: 12.666666%;}
+
+
+@media screen and (min-width:768px){
+    .space{
+        display: grid;
+        height: 0.1px;
+    }
+
+/* ----------aboutus------------- */
+.aboutus_infor{
+    margin-bottom: 2%;
+    text-align: center;
+}
+.aboutus_infor p.h2{
+    display: inline-block;
+    text-align: center;
+    
+}
+.aboutus_text1{
+    background-color: rgba(255, 255, 255, 0.555);
+    margin: 0% 2.5% 0% 0%;
+    height: 250px;
+    width: 200px;
+
+}
+.aboutus_text1 p{
+    float: left;
+    text-align: center;
+    padding: 2% ;
+   border-radius: 10%;
+}
+
+.aboutus_infor h3{
+    margin-top: 20px;
+}
+
+.aboutus_infor p,.aboutus_infor p.h4{
+    float: left;
+    margin: 2% 2%;
+    padding: 10px;
+}
+.aboutus_video{
+    margin: 0;
+}
+.aboutus_talk{
+    text-align: center;
+    margin: auto;
+}
+.aboutus_talk p{
+    margin: auto;
+    padding: 1% 0%;
+}
+
+.aboutus_backimg{
+    background-image: url(./img/webfirst_00.PNG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.8;
+    padding: 5% 0% 0% 0%
+}
+
+
+
+
+    .col-md-0_5{ width: 4.1666666%; }
+    .col-md-1{ width: 8.333333%; }
+    .col-md-2{ width: 16.666666%; }
+    .col-md-3{ width: 25%;}
+    .col-md-3s{width: 12.5%;
+        height: 0.1px; float: left;}
+    .col-md-4s{ width:22.11111111%; }
+    .col-md-4{ width: 33.333333%; }
+    .col-md-5{ width: 41.666666%; }
+    .col-md-6{ width: 50%; }
+    .col-md-7{ width: 58.333333%; }
+    .col-md-8{ width: 66.666666%; }
+    .col-md-9{ width: 75%; }
+    .col-md-10{ width: 83.333333%; }
+    .col-md-11{ width: 91.666666%; }
+    .col-md-12{ width: 100%; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="all">
+<!---------------分隔-------------------->
+<!------------- 選單 --------------->
+    <header>
+        <input type="checkbox" name="" id="btn-mobile-menu">
+
+        <div class="container001">
+            <div class="headerContent">
+                <div class="logo123">
+                    <a href="index.html"><img src="img/LOGO.png"></a>
+                </div>
+                
+                <div class="menu">
+                    <label for="btn-mobile-menu" class="btn-mobile-menu">
+                        <span></span><span></span><span></span>
+                    </label>
+                    <nav>
+                        <a href="./04.html">品牌故事</a>
+                        <a href="./03.html">最新消息</a>
+                        <a href="./02.html">所有商品</a>
+                        <a href="./05.html">門市資訊</a>
+                        <a href="./06.html">預約試吃</a>
+                        <a href="#"><img src="img/icon2.png" alt=""></a>
+
+            
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<!---------------分隔-------------------->
+<div class="banner">
+    <img src="img/000.png" alt="">
+    
+</div>
+
+
+<!-------------麵包屑---------------- -->
+
+<div class="bredQQ">
+    
+<p>
+    <a href="./index.html">首頁</a>/<a href="./04.html">品牌故事</a>
+
+</p>
+
+</div>
+<!---------------分隔-------------------->
+
+<div class="title" data-aos="flip-left" data-aos-duration="2000">
+    <h2>品牌故事</h2>
+</div>
+
+
+
+<!---------------分隔-------------------->
+    <div class="rotate" data-aos-duration="2000">
+        <img src="img/456.png" alt="">
+    </div>
+<!----------------圖片背景移動----------------------->
+      <div class="aboutus_infor aboutus_backimg   ">
+
+
+        <div class="col-md-3 floatl space"></div>
+        <div class="window-12 floatl col-md-2 aboutus_text1 ">
+            <h3>創新技術</h3>
+            <p class="h4">投資全新食品工廠，增添更多的設備和專業機具
+                從生產、製造到銷售皆自主管理嚴格控管<br>品質，
+            提供完善的服務與商品</p>
+        </div>
+        <div class="window-12 floatl col-md-2 aboutus_text1">
+            <h3>天然食材</h3>
+            <p class="h4">本公司原料取得與生產流程均嚴格把關
+                由於不含化學香精、人工添加物與防腐劑
+                <br>因此保留了食物最初的味道</p>
+        </div>
+        <div class="window-12 floatl col-md-2 aboutus_text1">
+            <h3>誠摯服務</h3>
+            <p class="h4">門市的每一位專員，皆誠心地為您服務及介紹商品
+           
+            <br>我們會努力成為讓每一個顧客都感受到我們的專業度</p>
+        </div>
+        
+        <div class="col-md-3 floatl space"></div>
+        
+    
+        <div class="clearfixin"></div>
+    </div>
+    
+        <div class="clearfix"></div>
+
+  
+
+
+
+
+
+<!---------------分隔-------------------->
+	<div class="ad04">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6" data-aos="fade-right"data-aos-duration="3000">
+					<div class="pic04">
+						<img src="img/story01.PNG" alt="">
+					</div>
+				</div>
+				<div class="col-12 col-md-6" data-aos="zoom-in">
+					<div class="text04">
+						<h3>品牌起源</h3>
+						<p>蛋糕能夠在平常生活中帶來樂趣與驚喜的食物，更是傳遞感動的媒介，
+
+<br>雖然只是小小的蛋糕，乘載著卻是深厚的心意。
+
+<br>甘鹿禮坊想成為一間傳遞幸褔的手作烘焙店，
+
+<br>希望顧客在享用的過程中和心愛的人一起分享，
+
+拉近人與人之間的距離
+
+<br>這就是甘鹿創辦的初衷。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!---------------分隔-------------------->
+
+
+	
+
+    <div class="ad04">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6" data-aos="fade-right"data-aos-duration="3000">
+                    <div class="pic04">
+                        <img src="img/story02.PNG" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6" data-aos="zoom-in">
+                    <div class="text04">
+                        <h3>品牌精神</h3>
+                <p>甘鹿禮坊是由一群對食材挑選與製作十分堅持的夥伴組成
+                            <br>每當我們團隊在設計一樣產品時，<br>
+
+都會先思考自己是否願意食用或是給自己在乎的家人朋友食用
+<br>這是我們對於產品的堅持，以及同理顧客的感受,
+<br>把每一位顧客看作我們自己的家人一樣照顧。</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!---------------分隔-------------------->
+
+
+<div class="bd">
+		<div class="container">
+				<div class="col-12 col-lg-12">
+					<div class="pic">
+						
+					</div>
+				</div>
+		</div>
+</div>
+
+
+
+<!------------footer-------------->
+<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<ul>
+						Copyright © 2019 Seet Deer Co.,Ltd.All Rights Reserved.
+
+					</ul>
+				</div>
+
+			
+				
+				
+				
+			</div>
+		</div>
+	</div>
+
+<!-----------三圓圈有下往上效果-------------------->
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+
+	
+<!-----------boostrap預設-------------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	
+
+	
+</body>
+</html>
